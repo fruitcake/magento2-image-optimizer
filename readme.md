@@ -15,7 +15,7 @@ By using either of those instead of the default, the images will be automaticall
 You can install this module via composer:
 
 ```bash
-composer require fruitcake/magento2-image-optimizer:"0.1@dev"
+composer require fruitcake/magento2-image-optimizer:"0.1.x@dev"
 ```
 
 Enable the module (and reset cache/di etc)
