@@ -8,12 +8,14 @@ This package adds 2 new Image Adapters to Magento2 in Store -> Configuration -> 
  
 By using either of those instead of the default, the images will be automatically optimized.
 
+> Note: This is an alpha package, use with caution.
+
 ## Installation
 
 You can install this module via composer:
 
 ```bash
-composer require fruitcake/magento2-image-optimizer
+composer require fruitcake/magento2-image-optimizer:"0.1@dev"
 ```
 
 Enable the module (and reset cache/di etc)
