@@ -1,0 +1,32 @@
+{
+    "name": "fruitcake/magento2-image-optimizer",
+    "description": "Magento2 Image Optimizer",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors":[
+        {
+            "name":"Fruitcake",
+            "email":"info@fruitcake.nl"
+        },
+        {
+            "name": "Barry vd. Heuvel",
+            "email": "barry@fruitcake.nl"
+        }
+    ],
+    "require": {
+        "spatie/image-optimizer": "^1"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Fruitcake\\ImageOptimizer\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}

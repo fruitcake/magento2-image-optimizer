@@ -1,0 +1,18 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <dev>
+            <image>
+                <adapters>
+                    <GD2_OPTIMIZER>
+                        <title>PHP GD2 + Optimizer</title>
+                        <class>Fruitcake\ImageOptimizer\Adapter\Gd2Optimizer</class>
+                    </GD2_OPTIMIZER>
+                    <IMAGEMAGICK_OPTIMIZER>
+                        <title>ImageMagick + Optimizer</title>
+                        <class>Fruitcake\ImageOptimizer\Adapter\ImageMagickOptimizer</class>
+                    </IMAGEMAGICK_OPTIMIZER>
+                </adapters>
+            </image>
+        </dev>
+    </default>
+</config>
