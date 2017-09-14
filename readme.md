@@ -45,4 +45,4 @@ If you discover any security related issues, please email barry@fruitcake.nl dir
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
